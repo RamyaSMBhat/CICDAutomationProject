@@ -44,6 +44,7 @@ public class FlipKarSearch {
 		System.out.println(count);
 		for(WebElement sugg:allSugg) {
 			System.out.println(sugg.getText());
+			System.out.println("Doing job");
 		}
 		
 		driver.quit();
